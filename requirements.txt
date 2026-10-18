@@ -1,3 +1,4 @@
+-e .
 tensorflow>=2.16,<2.22
 scikit-learn>=1.4,<2
 pillow>=10,<13
