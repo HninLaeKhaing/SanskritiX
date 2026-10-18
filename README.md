@@ -74,11 +74,11 @@ streamlit run sankritix/app.py
 
 The app includes an artwork-identification tab, an explorer with history, region, materials, visual features, reflection prompts, and further-reading links for all eight labels, plus a three-question sequential quiz for each tradition. Each response shows immediate feedback and an explanation before the learner advances; session progress is displayed and each quiz can be replayed. After an image is classified, results include a learning guide, comparison with the runner-up label, an optional Grad-CAM attention overlay, and source links. Grad-CAM shows model attention, not cultural evidence. Validation-derived confidence and top-label-margin heuristics flag tentative predictions; they are not calibrated probabilities. Users can save result summaries for the browser session and download them as JSON; uploaded images are not saved. Quiz progress is also session-only. An expandable transparency panel describes the dataset and license caveats. The learning cards remain available if the model has not been trained. Before training, photo upload is disabled and the sample result card is clearly marked as illustrative. The model does not establish provenance or authenticity.
 
-## Public preview deployment
+## Public deployment
 
-The public GitHub deployment intentionally excludes the trained model and artwork image archive because image-level reuse rights have not been verified. The hosted app therefore opens in preview mode: tradition guides and quizzes work, while image classification is disabled.
+The public deployment includes the trained model, class labels, and validation-based decision guidance so that image uploads, classification, and Grad-CAM attention maps work. It does not include the source artwork archive or extracted training images. Image-level reuse rights for the source dataset were not verified; the model weights are published with that limitation disclosed. Confirm dataset and model redistribution terms before reusing or redistributing them.
 
-To deploy on [Streamlit Community Cloud](https://share.streamlit.io/), create an app from this repository's `main` branch, set the app file to `sankritix/app.py`, and select Python 3.12. Dependencies are installed from `requirements.txt`. Do not upload the dataset archive or trained model unless their redistribution rights have been reviewed.
+The app is hosted on [Streamlit Community Cloud](https://sanskritix.streamlit.app/) from this repository's `main` branch, using `sankritix/app.py` and Python 3.12. Dependencies are installed from `requirements.txt`.
 
 ## Run tests
 

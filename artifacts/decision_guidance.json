@@ -1,0 +1,7 @@
+{
+  "confidence_threshold": 0.4787437319755554,
+  "margin_threshold": 0.17792554199695587,
+  "correct_validation_samples": 113,
+  "correct_percentile": 10.0,
+  "method": "validation_correct_prediction_lower_percentile"
+}

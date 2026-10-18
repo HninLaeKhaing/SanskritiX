@@ -1,0 +1,63 @@
+{
+  "gond": {
+    "precision": 0.7647058823529411,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.8125,
+    "support": 15.0
+  },
+  "kalighat": {
+    "precision": 0.96875,
+    "recall": 0.8157894736842105,
+    "f1-score": 0.8857142857142857,
+    "support": 38.0
+  },
+  "kangra": {
+    "precision": 0.8666666666666667,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.896551724137931,
+    "support": 14.0
+  },
+  "kerala": {
+    "precision": 0.8,
+    "recall": 0.8,
+    "f1-score": 0.8,
+    "support": 15.0
+  },
+  "madhubani": {
+    "precision": 0.7222222222222222,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.7878787878787878,
+    "support": 15.0
+  },
+  "mandana": {
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.6666666666666666,
+    "support": 21.0
+  },
+  "pichwai": {
+    "precision": 0.6923076923076923,
+    "recall": 0.6,
+    "f1-score": 0.6428571428571429,
+    "support": 15.0
+  },
+  "warli": {
+    "precision": 0.6666666666666666,
+    "recall": 0.75,
+    "f1-score": 0.7058823529411765,
+    "support": 16.0
+  },
+  "accuracy": 0.785234899328859,
+  "macro avg": {
+    "precision": 0.768498224610357,
+    "recall": 0.7867951127819549,
+    "f1-score": 0.7747563700244988,
+    "support": 149.0
+  },
+  "weighted avg": {
+    "precision": 0.7939666909613613,
+    "recall": 0.785234899328859,
+    "f1-score": 0.7862518362628972,
+    "support": 149.0
+  }
+}
