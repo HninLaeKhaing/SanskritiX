@@ -1,0 +1,1 @@
+"""SanskritiX image-classification project."""
